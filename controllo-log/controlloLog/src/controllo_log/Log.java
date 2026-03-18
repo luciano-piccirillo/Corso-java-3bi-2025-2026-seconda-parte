@@ -126,5 +126,4 @@ public class Log {
         String separatore = ", ";
         return this.id + separatore + this.tipoUtente + separatore + this.allarmeIDS;
     }
-
 }

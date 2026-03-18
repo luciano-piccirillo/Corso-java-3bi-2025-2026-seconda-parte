@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 
 public class Logs {
-    private Log dati[];
+private Log dati[];
     private String fileName;
     private String headers[];
 
