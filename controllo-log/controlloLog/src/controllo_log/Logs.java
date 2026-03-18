@@ -4,11 +4,16 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 
 public class Logs {
-private Log dati[];
+    private Log dati[];
     private String fileName;
     private String headers[];
+    private String separatore;
+    private boolean intestazione;
+    private String rawData[];
+    private int count;
 
     public Logs(int nrLogs) {
+        this.count = nrLogs;
         this.dati = new Log[nrLogs];
     }
 
@@ -19,6 +24,10 @@ private Log dati[];
 
     public Logs(String fileName) {
 
+    }
+
+    private int contaRighe() {
+        return -1;
     }
 
     public void caricaFile(String fileName, boolean intestazione, String separatore) {
